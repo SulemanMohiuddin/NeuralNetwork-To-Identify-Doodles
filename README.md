@@ -1,3 +1,6 @@
+![79ba9e57-f1bf-470c-8b68-25faf29ff4b2](https://github.com/user-attachments/assets/621b7495-25bb-4907-86c7-285c4ec6da06)
+
+
 # 🌟 Doodle Recognition Neural Network 🎨
 
 This repository contains a **Doodle Recognition Neural Network** implemented entirely in Java, without using any external machine learning libraries. The focus is on building the core neural network concepts from scratch using mathematical computations. 🧠✨
