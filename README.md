@@ -79,17 +79,34 @@ java -cp out Main test dataset/test.csv
 
 ## 📂 Project Structure
 ```
-.
-├── src
-│   ├── Main.java           # Entry point
-│   ├── NeuralNetwork.java  # Core NN implementation
-│   ├── MatrixUtils.java    # Matrix operations
-│   └── Activation.java     # Activation functions
-├── dataset
-│   ├── train.csv           # Training dataset
-│   └── test.csv            # Testing dataset
-├── out                     # Compiled files
-└── README.md               # Project documentation
+├── src/
+│   └── main/
+│       └── java/
+│           └── com.example.neural_network_java/
+│               ├── Drawing/
+│               │   └── Draw.java
+│               ├── NeuralNetwork/
+│               │   ├── Activation/
+│               │   │   ├── Activation.java
+│               │   │   └── IActivation.java
+│               │   ├── Cost/
+│               │   │   ├── Cost.java
+│               │   │   └── ICost.java
+│               │   ├── HyperParameters.java
+│               │   ├── Layer.java
+│               │   └── NeuralNetwork.java
+│               └── Training/
+│                   ├── Dataset.java
+│                   ├── NetworkTrainer.java
+│                   └── TrainingInfo.java
+│               ├── HelloController.java
+│               └── module-info.java
+├── resources/
+├── target/
+├── Neural_Network_Java.iml
+├── pom.xml
+└── README.md
+# Project documentation
 ```
 
 ## 🤝 Contributing
