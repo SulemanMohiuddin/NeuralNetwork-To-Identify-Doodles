@@ -35,7 +35,7 @@ The goal of this project is to recognize doodles (simple hand-drawn sketches) by
 ## 📥 Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/doodle-recognition-nn.git
+   git clone https://github.com/SulemanMohiuddin/doodle-recognition-nn.git
    cd doodle-recognition-nn
    ```
 2. Compile the Java files:
