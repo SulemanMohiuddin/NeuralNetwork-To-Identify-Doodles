@@ -30,7 +30,7 @@ The goal of this project is to recognize doodles (simple hand-drawn sketches) by
 
 ## 🛠 Prerequisites
 - **Java Development Kit (JDK):** Version 11 or later ☕
-- **Dataset:** A dataset of doodles in a compatible format (e.g., CSV with pixel values and labels) 📊
+- **Dataset:** https://www.kaggle.com/datasets/ashishjangra27/doodle-dataset 📊
 
 ## 📥 Installation
 1. Clone the repository:
@@ -79,34 +79,43 @@ java -cp out Main test dataset/test.csv
 
 ## 📂 Project Structure
 ```
-├── src/
-│   └── main/
-│       └── java/
-│           └── com.example.neural_network_java/
-│               ├── Drawing/
-│               │   └── Draw.java
-│               ├── NeuralNetwork/
-│               │   ├── Activation/
-│               │   │   ├── Activation.java
-│               │   │   └── IActivation.java
-│               │   ├── Cost/
-│               │   │   ├── Cost.java
-│               │   │   └── ICost.java
-│               │   ├── HyperParameters.java
-│               │   ├── Layer.java
-│               │   └── NeuralNetwork.java
-│               └── Training/
-│                   ├── Dataset.java
-│                   ├── NetworkTrainer.java
-│                   └── TrainingInfo.java
+Neural_Network_Java
+├── .idea
+├── src
+│   ├── main
+│      ├── java
+│         ├── com.example.neural_network_java
+│            ├── DataHandling
+│               ├── DataPoint.java
+│               ├── DataProcessing.java
+│               ├── Main.java
+│            ├── Drawing
+│               ├── Draw.java
+│            ├── NeuralNetwork
+│               ├── Activation
+│               │   ├── Activation.java
+│               │   ├── IActivation.java
+│               ├── Cost
+│               │   ├── Cost.java
+│               │   ├── ICost.java
+│               ├── HyperParameters.java
+│               ├── Layer.java
+│               ├── NeuralNetwork.java
+│            |── Training
+│               ├── DataSetHelper.java
+│               ├── LayerLearnData.java
+│               ├── NetworkLearnData.java
+│               ├── NetworkTrainer.java
 │               ├── HelloController.java
-│               └── module-info.java
-├── resources/
-├── target/
+│               ├── TrainAndRun.java
+│            ├── module-info.java
+├── resources
+├── target
 ├── Neural_Network_Java.iml
 ├── pom.xml
-└── README.md
-# Project documentation
+├── External Libraries
+└── Scratches and Consoles
+
 ```
 
 ## 🤝 Contributing
@@ -118,5 +127,5 @@ Contributions are welcome! If you have suggestions or bug fixes, feel free to su
 3. Commit your changes and push to your fork. 📤
 4. Open a pull request with a detailed description. 📝
 
-## 📜 License
-This project is licensed under the MIT License. See the `LICENSE` file for more details. 📄
+## 📜 Help
+https://www.youtube.com/watch?v=hfMk-kjRv4c&t=2955s
